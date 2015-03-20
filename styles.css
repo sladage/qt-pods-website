@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Ubuntu Light";
+    src: url('assets/Ubuntu-Light.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+
+    font-family: "Ubuntu Light";
+}
+
+a {
+    color: #83c24b;
+}
+
+.headerArea {
+    background: url('assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 563px;
+}
+
+.footerArea {
+    background-color: #2a2c27;
+    width: 100%;
+    height: 220px;
+    bottom: 0;
+}
+
+.headerWrapper,
+.contentWrapper,
+.footerWrapper {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.headerWrapper,
+.footerWrapper {
+    color: white;
+}
+
+.contentWrapper {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.qtpodsLogoColored {
+    background: url('assets/logo.png');
+    width: 166px;
+    height: 60px;
+    position: absolute;
+    top: 60px;
+}
+
+.qtpodsLogoFooter {
+    background: url('assets/logo-footer.png');
+    width: 128px;
+    height: 46px;
+    position: absolute;
+    top: 60px;
+}
+
+.qtpodsOnGithub {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    text-transform: uppercase;
+    top: 440px;
+    right: 10px;
+    left: 370px;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 60px;
+    padding-left: 20px;
+}
+
+.qtpodsOnGithub:after {
+    content: '';
+    width: 27px;
+    height: 27px;
+    background: url('assets/icon-github.png');
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.qtpodsOnGithub:hover {
+    background-color: #83c24b;
+}
+
+.headerTitle {
+    font-size: 46px;
+    position: absolute;
+    top: 280px;
+    width: 660px;
+
+}
+
+.sectionTitle {
+}
+
+.sectionParagraph {
+    margin-top: 36px;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: justify;
+}
+
+.learnMoreButton {
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 440px;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 60px;
+    background-color: #83c24b;
+    padding-left: 20px;
+    color: white;
+}
+
+.learnMoreButton:after {
+    content: '';
+    width: 26px;
+    height: 26px;
+    background: url('assets/icon-video.png');
+    position: absolute;
+    top: 17px;
+    left: 17px;
+}
+
+.learnMoreButton:hover {
+    background-color: #2a2c27;
+}
+
+.shareButtonContainer {
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.shareButtonContainer li {
+    display: inline-block;
+}
+
+.footerText {
+    right: 20px;
+    top: 60px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 20px;
+}
